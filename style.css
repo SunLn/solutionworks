@@ -243,332 +243,6 @@ a {
 .clearfix:after {
   clear: both;
 }
-@media screen and (min-width: 321px) and (max-width: 480px) {
-  /* line 6, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .wrapper {
-    width: 100%;
-  }
-  /* line 10, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .banner ul li {
-    text-align: center;
-    width: 100%;
-  }
-  /* line 15, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .intro {
-    width: 100%;
-    margin: 0 auto;
-  }
-  /* line 18, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .intro section {
-    width: 100%;
-    float: left;
-    word-wrap: break-word;
-    word-break: break-all;
-    text-align: justify;
-  }
-  /* line 24, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .intro section .intro-img {
-    text-align: center;
-    padding-top: 32px;
-    padding-bottom: 40px;
-    min-height: 40px;
-  }
-  /* line 30, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .intro section .intro-title {
-    font-size: 28px;
-    padding-bottom: 30px;
-    color: #212326;
-    font-weight: lighter;
-    text-align: center;
-  }
-  /* line 37, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .intro section .intro-subtitle {
-    min-height: 60px;
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 20px;
-    color: #919599;
-    padding: 0 20px;
-  }
-  /* line 45, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .intro section .intro-normal {
-    font-size: 14px;
-    line-height: 20px;
-    color: #626973;
-    padding: 0 20px;
-  }
-  /* line 50, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  .intro section .intro-normal.special {
-    margin-bottom: 20px;
-  }
-  /* line 57, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper {
-    width: 90%;
-  }
-  /* line 59, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top {
-    height: 254px;
-  }
-  /* line 61, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .social {
-    padding-top: 83px;
-  }
-  /* line 63, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .social a {
-    width: 305px;
-    height: 44px;
-  }
-  /* line 66, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .social a span {
-    width: 50px;
-    height: 44px;
-    float: left;
-  }
-  /* line 71, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .social a:first-child {
-    margin-bottom: 20px;
-  }
-  /* line 76, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .subscrible {
-    padding-top: 50px;
-  }
-  /* line 78, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .subscrible .title {
-    margin-bottom: 15px;
-  }
-  /* line 81, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .subscrible .subtitle {
-    margin-bottom: 32px;
-  }
-  /* line 85, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .subscrible .input .email {
-    width: 355px;
-    height: 49px;
-    padding-left: 14px;
-    padding-right: 14px;
-  }
-  /* line 92, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-top .subscrible .input .submit {
-    width: 142px;
-    height: 51px;
-  }
-  /* line 99, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-bottom {
-    height: 266px;
-    padding-top: 20px;
-    width: 100%;
-  }
-  /* line 103, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-bottom .copyright {
-    width: 27.777777777778%;
-  }
-  /* line 106, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
-  footer .wrapper .footer-bottom .flink {
-    width: 46.296296296296%;
-  }
-}
-/*
-    intro style
-*/
-@media screen and (min-width: 1200px) {
-  /* line 5, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .wrapper {
-    max-width: 1200px;
-  }
-  /* line 8, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .intro {
-    max-width: 1080px;
-    width: 90%;
-    margin: 0 auto;
-  }
-  /* line 12, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .intro section {
-    max-width: 326px;
-    float: left;
-    margin-left: 51px;
-    word-wrap: break-word;
-    word-break: break-all;
-    text-align: justify;
-  }
-  /* line 19, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .intro section:first-child {
-    margin-left: 0;
-  }
-  /* line 22, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .intro section .intro-img {
-    text-align: center;
-    padding-top: 72px;
-    padding-bottom: 80px;
-    min-height: 67px;
-  }
-  /* line 28, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .intro section .intro-title {
-    font-size: 28px;
-    padding-bottom: 30px;
-    color: #212326;
-    font-weight: lighter;
-  }
-  /* line 34, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .intro section .intro-subtitle {
-    min-height: 60px;
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 50px;
-    color: #919599;
-  }
-  /* line 41, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .intro section .intro-normal {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 168px;
-    color: #626973;
-  }
-  /* line 46, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  .intro section .intro-normal.special {
-    margin-bottom: 20px;
-  }
-  /* line 52, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer {
-    width: 100%;
-    background-color: #f7f8fa;
-    margin: 0 auto;
-  }
-  /* line 57, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper {
-    width: 90%;
-  }
-  /* line 59, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top {
-    height: 254px;
-    border-bottom: 1px solid #dedfe1;
-    background-color: #f7f8fa;
-  }
-  /* line 63, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .social {
-    padding-top: 83px;
-  }
-  /* line 65, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .social a {
-    width: 305px;
-    height: 44px;
-    display: block;
-    text-align: center;
-    color: #fff;
-    line-height: 44px;
-    font-size: 16px;
-  }
-  /* line 73, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .social a span {
-    display: inline-block;
-    width: 50px;
-    height: 44px;
-    float: left;
-  }
-  /* line 79, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .social a:first-child {
-    margin-bottom: 20px;
-  }
-  /* line 82, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .social a.fb {
-    background-color: #31488c;
-  }
-  /* line 84, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .social a.fb span {
-    background: center center url(img/social-fb.png) #2c417e no-repeat;
-  }
-  /* line 88, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .social a.tw {
-    background-color: #308fbf;
-  }
-  /* line 90, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .social a.tw span {
-    background: center center url(img/social-tw.png) #2b80ac no-repeat;
-  }
-  /* line 96, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .subscrible {
-    padding-top: 50px;
-    color: #434c59;
-    font-size: 18px;
-  }
-  /* line 100, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .subscrible .title {
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-  /* line 104, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .subscrible .subtitle {
-    margin-bottom: 32px;
-  }
-  /* line 109, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .subscrible .input .email {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    width: 355px;
-    height: 49px;
-    border: 1px solid #000000;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    padding-left: 14px;
-    padding-right: 14px;
-    font-size: 18px;
-  }
-  /* line 32, /Users/dengchenhua/www/solutionworks/less/_mixin.less */
-  footer .wrapper .footer-top .subscrible .input .email:-moz-placeholder {
-    color: #acb4bf;
-  }
-  /* line 35, /Users/dengchenhua/www/solutionworks/less/_mixin.less */
-  footer .wrapper .footer-top .subscrible .input .email:-ms-input-placeholder {
-    color: #acb4bf;
-  }
-  /* line 38, /Users/dengchenhua/www/solutionworks/less/_mixin.less */
-  footer .wrapper .footer-top .subscrible .input .email::-webkit-input-placeholder {
-    color: #acb4bf;
-  }
-  /* line 121, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-top .subscrible .input .submit {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    width: 142px;
-    height: 51px;
-    background-color: #306cbf;
-    color: #fff;
-    font-size: 18px;
-    font-weight: normal;
-    border: none;
-    font-weight: lighter;
-  }
-  /* line 135, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-bottom {
-    height: 266px;
-    padding-top: 20px;
-    color: #919599;
-    font-size: 12px;
-    background-color: #f7f8fa;
-    width: 100%;
-  }
-  /* line 142, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-bottom .copyright {
-    width: 27.777777777778%;
-  }
-  /* line 145, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-bottom .flink {
-    width: 46.296296296296%;
-  }
-  /* line 147, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-bottom .flink li {
-    display: inline-block;
-    padding: 0 5px;
-  }
-  /* line 150, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-bottom .flink li:last-child {
-    padding-right: 0;
-  }
-  /* line 155, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
-  footer .wrapper .footer-bottom a {
-    color: #919599;
-  }
-}
 /* line 1, /Users/dengchenhua/www/solutionworks/less/_wrapper.less */
 body {
   font-family: "Proxima Nova", "Sans-serif", "Helvetica";
@@ -813,4 +487,331 @@ footer .wrapper .footer-bottom .flink li {
 /* line 74, /Users/dengchenhua/www/solutionworks/less/_footer.less */
 footer .wrapper .footer-bottom a {
   color: #919599;
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* line 6, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .wrapper {
+    width: 100%;
+  }
+  /* line 10, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .banner ul li {
+    text-align: center;
+    width: 100%;
+  }
+  /* line 15, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .intro {
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* line 18, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .intro section {
+    width: 100%;
+    float: left;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: justify;
+  }
+  /* line 24, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .intro section .intro-img {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    min-height: 40px;
+  }
+  /* line 30, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .intro section .intro-title {
+    font-size: 28px;
+    color: #212326;
+    font-weight: lighter;
+    padding: 0 20px 20px;
+  }
+  /* line 36, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .intro section .intro-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #919599;
+    padding: 0 20px;
+  }
+  /* line 43, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .intro section .intro-normal {
+    font-size: 14px;
+    line-height: 20px;
+    color: #626973;
+    padding: 0 20px;
+  }
+  /* line 48, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  .intro section .intro-normal.special {
+    margin-bottom: 20px;
+  }
+  /* line 54, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer {
+    margin-top: 70px;
+  }
+  /* line 56, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper {
+    width: 90%;
+  }
+  /* line 60, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .social {
+    padding-top: 43px;
+    float: none !important;
+  }
+  /* line 63, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .social a {
+    width: 360px;
+    height: 44px;
+  }
+  /* line 66, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .social a span {
+    width: 50px;
+    height: 44px;
+    float: left;
+  }
+  /* line 71, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .social a:first-child {
+    margin-bottom: 20px;
+  }
+  /* line 76, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .subscrible {
+    float: none !important;
+    padding-bottom: 30px;
+  }
+  /* line 80, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .subscrible .title {
+    margin: 45px 0 15px;
+  }
+  /* line 83, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .subscrible .subtitle {
+    margin-bottom: 32px;
+  }
+  /* line 87, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .subscrible .input .email {
+    width: 220px;
+    height: 49px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  /* line 94, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-top .subscrible .input .submit {
+    width: 102px;
+    height: 51px;
+  }
+  /* line 101, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-bottom {
+    padding-top: 20px;
+    width: 100%;
+  }
+  /* line 105, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-bottom .copyright {
+    float: none !important;
+  }
+  /* line 108, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-bottom .flink {
+    float: none !important;
+    text-align: left !important;
+    padding: 10px 0;
+  }
+}
+/*
+    intro style
+*/
+@media screen and (min-width: 1200px) {
+  /* line 5, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .wrapper {
+    max-width: 1200px;
+  }
+  /* line 8, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .intro {
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* line 12, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .intro section {
+    max-width: 326px;
+    float: left;
+    margin-left: 51px;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: justify;
+  }
+  /* line 19, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .intro section:first-child {
+    margin-left: 0;
+  }
+  /* line 22, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .intro section .intro-img {
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 80px;
+    min-height: 67px;
+  }
+  /* line 28, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .intro section .intro-title {
+    font-size: 28px;
+    padding-bottom: 30px;
+    color: #212326;
+    font-weight: lighter;
+  }
+  /* line 34, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .intro section .intro-subtitle {
+    min-height: 60px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 50px;
+    color: #919599;
+  }
+  /* line 41, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .intro section .intro-normal {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 168px;
+    color: #626973;
+  }
+  /* line 46, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  .intro section .intro-normal.special {
+    margin-bottom: 20px;
+  }
+  /* line 52, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer {
+    width: 100%;
+    background-color: #f7f8fa;
+    margin: 0 auto;
+  }
+  /* line 57, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper {
+    width: 90%;
+  }
+  /* line 59, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top {
+    height: 254px;
+    border-bottom: 1px solid #dedfe1;
+    background-color: #f7f8fa;
+  }
+  /* line 63, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .social {
+    padding-top: 83px;
+  }
+  /* line 65, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .social a {
+    width: 305px;
+    height: 44px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 44px;
+    font-size: 16px;
+  }
+  /* line 73, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .social a span {
+    display: inline-block;
+    width: 50px;
+    height: 44px;
+    float: left;
+  }
+  /* line 79, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .social a:first-child {
+    margin-bottom: 20px;
+  }
+  /* line 82, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .social a.fb {
+    background-color: #31488c;
+  }
+  /* line 84, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .social a.fb span {
+    background: center center url(img/social-fb.png) #2c417e no-repeat;
+  }
+  /* line 88, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .social a.tw {
+    background-color: #308fbf;
+  }
+  /* line 90, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .social a.tw span {
+    background: center center url(img/social-tw.png) #2b80ac no-repeat;
+  }
+  /* line 96, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .subscrible {
+    padding-top: 50px;
+    color: #434c59;
+    font-size: 18px;
+  }
+  /* line 100, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .subscrible .title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  /* line 104, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .subscrible .subtitle {
+    margin-bottom: 32px;
+  }
+  /* line 109, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .subscrible .input .email {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 355px;
+    height: 49px;
+    border: 1px solid #000000;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 18px;
+  }
+  /* line 32, /Users/dengchenhua/www/solutionworks/less/_mixin.less */
+  footer .wrapper .footer-top .subscrible .input .email:-moz-placeholder {
+    color: #acb4bf;
+  }
+  /* line 35, /Users/dengchenhua/www/solutionworks/less/_mixin.less */
+  footer .wrapper .footer-top .subscrible .input .email:-ms-input-placeholder {
+    color: #acb4bf;
+  }
+  /* line 38, /Users/dengchenhua/www/solutionworks/less/_mixin.less */
+  footer .wrapper .footer-top .subscrible .input .email::-webkit-input-placeholder {
+    color: #acb4bf;
+  }
+  /* line 121, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-top .subscrible .input .submit {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 142px;
+    height: 51px;
+    background-color: #306cbf;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    border: none;
+    font-weight: lighter;
+  }
+  /* line 135, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-bottom {
+    height: 266px;
+    padding-top: 20px;
+    color: #919599;
+    font-size: 12px;
+    background-color: #f7f8fa;
+    width: 100%;
+  }
+  /* line 142, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-bottom .copyright {
+    width: 27.777777777778%;
+  }
+  /* line 145, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-bottom .flink {
+    width: 46.296296296296%;
+  }
+  /* line 147, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-bottom .flink li {
+    display: inline-block;
+    padding: 0 5px;
+  }
+  /* line 150, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-bottom .flink li:last-child {
+    padding-right: 0;
+  }
+  /* line 155, /Users/dengchenhua/www/solutionworks/less/_media_1200.less */
+  footer .wrapper .footer-bottom a {
+    color: #919599;
+  }
 }
