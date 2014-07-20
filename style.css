@@ -631,6 +631,10 @@ footer .wrapper .footer-bottom a {
     text-align: left !important;
     padding: 10px 0;
   }
+  /* line 91, /Users/dengchenhua/www/solutionworks/less/_media_base.less */
+  footer .wrapper .footer-bottom .flink li:first-child {
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 320px) {
   /* line 5, /Users/dengchenhua/www/solutionworks/less/_media_320.less */
@@ -664,6 +668,10 @@ footer .wrapper .footer-bottom a {
   footer .wrapper .footer-top .subscrible .input .submit {
     font-size: 0.8em;
     width: 27%;
+  }
+  /* line 20, /Users/dengchenhua/www/solutionworks/less/_media_480.less */
+  footer .wrapper .footer-bottom .flink li:first-child {
+    padding-left: 0;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
